@@ -5,6 +5,10 @@
 	margin: 0px;
 }
 
+#mobile {
+	display: none;
+}
+
 #wrapper {
 	width: 85%;
 	margin-left: auto;
@@ -133,7 +137,22 @@ img {
 }
 
 
-@media only screen and (max-width: 1130px) {
-
+@media only screen and (max-width: 1020px) {
+main {
+	width: 80%;
 }
+}
+
+@media only screen and (max-width: 750px) {
+	nav a {
+		display: none;
+	}
+		#mobile {
+		display: block;
+		padding: 0;
+	}
+
+	nav:hover a {
+		display: block;
+	}
 
