@@ -112,7 +112,8 @@ h2, h3	{
 	font-family: 'Roboto', sans-serif;
 	color: #666;
 	text-align: center;
-	padding-bottom: 1em;
+	padding-bottom: .5em;
+	line-height: 1.2em;
 }
 
 h3 {
@@ -125,7 +126,7 @@ body {
 	font-size: 16px;
 	color: #666;
 	text-align: center;
-	line-height: 1;
+	line-height: 1em;
 	padding: auto 0;
 }
 
@@ -169,14 +170,16 @@ main {
 	}
 
 	p {
-		padding-bottom: 2em;
+		padding-bottom: 3em;
+		line-height: 1.2em;
 	}
 
 }
 
 @media only screen and (max-width: 600px) {
-	#three_column {
-		float:none;
-		width:auto;
+	#left, #center, #right {
+		float: none;
+		width: auto;
+		display: block;
 	}
 }
