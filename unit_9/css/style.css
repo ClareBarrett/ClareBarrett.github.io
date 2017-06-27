@@ -107,6 +107,7 @@ height: 0;
 }
 
 footer {
+	font-family: 'Roboto', sans-serif;
 	font-size: .75em;
 	padding: 1.5em;
 	line-height: 2.5em;
@@ -150,7 +151,8 @@ body {
 
 
 a {
-	font-family: 'Roboto', sans-serif;
+	background-color: orange;
+	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
 /*	padding: 1em;
 */	color: #FF87A6;
@@ -161,12 +163,11 @@ img {
 }
 
 .about {
-	inheret: none;
-	color: orange;
-	padding: 1em;
-	font-family: 'Roboto', sans-serif;
-	font-size: 50em
-	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	color: #FF87A6;
+	text-align: center;
+	padding: 60px;
+	line-height: 2.2em;
 }
 
 
