@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:600|Roboto');
-
+@import url('https://fonts.googleapis.com/css?family=Work Sans:300,600');
 * {
 	padding: 0%;
 	margin: 0%;
@@ -19,37 +18,91 @@ header {
 	padding: .75em;
 }
 
-/*LoVe HAte
-*/
+a {
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+color: #ff5a74;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: .85em;
+}
 
 nav a {
-	padding: 1em;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 1em
-	font-weight: bold;
+	font-weight: 300;
+	padding: .5em;
 	}
 
 nav a:link {
-	padding: .5em;
-	color: #666;
-	/*color: #FF87A6;
-	margin: 10px;
-	font-size: 12px;*/
+	color: #000;
 }
 
 nav a:hover {
-color: #666;
+color: #ff5a74;
 }
 
 nav a:active {
-color: #666;
+color: #000;
 }
 
-/*article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}*/
+div {
+	padding: .5em;
+}
+
+h1 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #ff5a74;
+	text-align: center;
+	padding-top: .5em; 
+	padding-bottom: .5em;
+	font-weight: 600;	
+}
+
+h2, h3	{
+	font-size: 1em;
+	font-family: 'Work Sans', sans-serif;
+	color: #000;
+	text-align: center;
+	padding-bottom: .5em;
+	line-height: 1.2em;
+	font-weight: 300;
+}
+
+h3 {
+	font-weight: 600;
+	padding-top: 1em;
+	padding-left: 0;
+	text-align: left;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #000;
+	text-align: left;
+	line-height: 1em;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	padding-left: 2.5%;
+	padding-top: 2em;
+	line-height: 1.5em;
+}
 
 #three_column {
 	padding: .5em;
@@ -106,67 +159,18 @@ clear: both;
 height: 0;
 }
 
-footer {
-	font-family: 'Roboto', sans-serif;
-	font-size: .75em;
+.about, .contact {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #000;
+	text-align: left;
 	padding: 1.5em;
-	line-height: 2.5em;
+	line-height: 1.5em;
 }
 
-div {
-	padding: .5em;
-}
 
-h1 {
-	font-family: 'Poppins', sans-serif;
-	color: #FF87A6;
-	text-align: center;
-	padding-top: 1.2em; 
-	padding-bottom: .5em;
+.ngamuru {
 	
-}
-
-h2, h3	{
-	font-size: 1em;
-	font-family: 'Roboto', sans-serif;
-	color: #666;
-	text-align: center;
-	padding-bottom: .5em;
-	line-height: 1.2em;
-}
-
-h3 {
-	font-weight: bold;
-	padding-top: 1em;
-}
-
-body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #666;
-	text-align: center;
-	line-height: 1em;
-	padding: auto 0;
-}
-
-
-a {
-	font-family: 'Poppins', sans-serif;
-	text-decoration: none;
-/*	padding: 1em;
-*/	color: #FF87A6;
-}
-
-img {
-	width: 100%;
-}
-
-.about {
-	font-family: 'Poppins', sans-serif;
-	color: #FF87A6;
-	text-align: center;
-	padding: 60px;
-	line-height: 2.2em;
 }
 
 
