@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Work Sans:300,600');
+* {
+	padding: 0%;
+	margin: 0%;
+}
+
+#mobile {
+	display: none;
+}
+
+#wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	padding: .75em;
+}
+
+a {
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+color: #ff5a74;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: .85em;
+}
+
+nav a {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em
+	font-weight: 300;
+	padding: .5em;
+	}
+
+nav a:link {
+	color: #000;
+}
+
+nav a:hover {
+color: #ff5a74;
+}
+
+nav a:active {
+color: #000;
+}
+
+div {
+	padding: .5em;
+}
+
+h1 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #ff5a74;
+	text-align: center;
+	padding-top: .5em; 
+	padding-bottom: .5em;
+	font-weight: 600;	
+}
+
+h2, h3	{
+	font-size: 1em;
+	font-family: 'Work Sans', sans-serif;
+	color: #000;
+	text-align: center;
+	padding-bottom: .5em;
+	line-height: 1.2em;
+	font-weight: 300;
+}
+
+h3 {
+	font-weight: 600;
+	padding-top: 1em;
+	padding-left: 0;
+	text-align: left;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #000;
+	text-align: left;
+	line-height: 1em;
+	padding-bottom: 2em;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	padding-left: 1.25%;
+	padding-top: 2em;
+	line-height: 1.5em;
+}
+
+#three_column {
+	padding: .5em;
+ 	-moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-break-inside: avoid;
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    min-height: 00px;
+
+}
+
+.left {
+	padding: 1%;
+	margin: 0 1%;
+	padding-bottom: 8%;
+}
+
+.center {
+	padding: 1%;
+	margin: 0 1%;
+	padding-bottom: 8%;
+}
+
+.right {
+	padding: 1%;
+	margin: 0 1%;
+	padding-bottom: 8%;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+
+.about h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #000;
+	text-align: left;
+	padding-left: 3em;
+	padding-right: 2em;
+	max-width: 80%;
+}
+
+.contact h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #000;
+	text-align: left;
+	padding-left: 3em;
+	padding-right: 2em;
+	max-width: 75%;
+}
+
+.contact p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	color: #000;
+	text-align: left;
+	padding-left: 8.85em;
+}
+
+.ngamuru h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #000;
+	text-align: left;
+	padding-top: 2em;
+	padding-left: 4.95em;
+	padding-bottom: .45em;
+
+}
+
+.ngamuru h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	color: #000;
+	text-align: left;
+	max-width: 30%;
+	padding-left: 14.85em;
+	padding-bottom: 5em;
+	font-weight: 600;
+}
+
+.ngamuru p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+	text-align: left;
+	max-width: 50%;
+	padding-left: 12.5em;
+	padding-bottom: .65em;
+}
+
+.ngamuru img {
+	display: block;
+	width: 95%;
+	padding: .5em;
+	margin: auto;
+}
+
+.sydneywater h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #000;
+	text-align: left;
+	padding-top: 2em;
+	padding-left: 4.95em;
+	padding-bottom: .45em;
+
+}
+
+.sydneywater h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	color: #000;
+	text-align: left;
+	max-width: 30%;
+	padding-left: 14.85em;
+	padding-bottom: 5em;
+	font-weight: 600;
+}
+
+.sydneywater p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+	text-align: left;
+	max-width: 50%;
+	padding-left: 12.5em;
+	padding-bottom: .65em;
+}
+
+.sydneywater img {
+	display: block;
+	width: 95%;
+	padding: .5em;
+	margin: auto;
+}
+
+
+
+@media only screen and (max-width: 1020px) {
+main {
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 750px) {
+	.left, .center, .right {
+		float:none;
+		width:auto;
+		padding: .5em;
+	}
+
+	nav a {
+		display: none;
+	}
+
+	#mobile {
+		display: block;
+		padding: 0;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+
+	p {
+		padding-bottom: .5em;
+		line-height: 1.2em;
+	}
+
+	footer {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+/*	padding-left: 1.25%;
+	padding-top: 2em;*/
+/*	line-height: 1.5em;
+*/	}
+
+	.about h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2em;
+	color: #000;
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+
+	.contact h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2em;
+	color: #000;
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+
+	.contact p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .70em;
+	color: #000;
+	text-align: left;
+	padding-left: 2.5em;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+	#three_column {
+/*		padding: .5em;
+		display: block;
+		flex-direction: row;
+		flex-wrap: wrap;*/
+	}
+
+	.left, .center, .right {
+		float: none;
+		width: auto;
+		display: block;
+	}
+
+	.about h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.45em;
+	color: #000;
+	text-align: left;
+	padding-left: .5em;
+	padding-right: .5em;
+	}
+
+	.contact h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.45em;
+	color: #000;
+	text-align: left;
+	padding-left: .5em;
+	padding-right: .5em;
+	}
+
+	.contact p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .70em;
+	color: #000;
+	text-align: left;
+	padding-left: 1em;
+}
+
+}
