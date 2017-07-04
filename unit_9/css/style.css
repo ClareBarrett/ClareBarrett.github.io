@@ -90,6 +90,7 @@ body {
 	color: #000;
 	text-align: left;
 	line-height: 1em;
+	padding-bottom: 2em;
 }
 
 img {
@@ -99,14 +100,14 @@ img {
 footer {
 	font-family: 'Work Sans', sans-serif;
 	font-size: .85em;
-	padding-left: 2.5%;
+	padding-left: 1.25%;
 	padding-top: 2em;
 	line-height: 1.5em;
 }
 
 #three_column {
 	padding: .5em;
-  -moz-column-gap: 1.5em;
+ 	-moz-column-gap: 1.5em;
     -webkit-column-gap: 1.5em;
     column-gap: 1.5em;
     -moz-column-count: 3;
@@ -121,39 +122,21 @@ footer {
 }
 
 .left {
-/*	background-color: orange;
-	float: left;*/
-/*	width: 29.33%;
-*/	padding: 1%;
+	padding: 1%;
 	margin: 0 1%;
 	padding-bottom: 8%;
-	/*width: 100%; height: auto;
-	padding-bottom: 15px;
-	margin-bottom: 5px;*/
 }
 
 .center {
-/*	background-color: pink;
-	float: left;*/
-/*	width: 29.33%;
-*/	padding: 1%;
+	padding: 1%;
 	margin: 0 1%;
-	padding-bottom: 8%;/*
-	width: 100%; height: auto;
-	padding-bottom: 15px;
-	margin-bottom: 5px;*/
+	padding-bottom: 8%;
 }
 
 .right {
-	/*background-color: blue;
-	float: left;*/
-/*	width: 29.33%;
-*/	padding: 1%;
+	padding: 1%;
 	margin: 0 1%;
-	padding-bottom: 8%;/*
-	width: 100%; height: auto;
-	padding-bottom: 15px;
-	margin-bottom: 5px;*/
+	padding-bottom: 8%;
 }
 
 .clearfix:after {
@@ -165,22 +148,14 @@ clear: both;
 height: 0;
 }
 
-/*.about, .contact {
-	font-family: 'Work Sans', sans-serif;
-	font-size: 2.5em;
-	color: #000;
-	text-align: left;
-	padding: 1.5em;
-	line-height: 1.5em;
-}*/
-
 .about h2 {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 2.5em;
 	color: #000;
 	text-align: left;
-	padding: .5em;
-	line-height: 1.5em;
+	padding-left: 3em;
+	padding-right: 2em;
+	max-width: 80%;
 }
 
 .contact h2 {
@@ -188,8 +163,9 @@ height: 0;
 	font-size: 2.5em;
 	color: #000;
 	text-align: left;
-	padding: .5em;
-	line-height: 1.5em;
+	padding-left: 3em;
+	padding-right: 2em;
+	max-width: 75%;
 }
 
 .contact p {
@@ -197,19 +173,89 @@ height: 0;
 	font-size: .85em;
 	color: #000;
 	text-align: left;
-	padding: 1.5em;
-	line-height: 1.5em;
+	padding-left: 8.85em;
 }
 
-.ngamuru {
+.ngamuru h2 {
 	font-family: 'Work Sans', sans-serif;
-	font-size: 1em;
+	font-size: 2.5em;
 	color: #000;
 	text-align: left;
-	padding: 1.5em;
-	line-height: 1.5em;
-	width: 90%;
+	padding-top: 2em;
+	padding-left: 4.95em;
+	padding-bottom: .45em;
+
 }
+
+.ngamuru h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	color: #000;
+	text-align: left;
+	max-width: 30%;
+	padding-left: 14.85em;
+	padding-bottom: 5em;
+	font-weight: 600;
+}
+
+.ngamuru p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+	text-align: left;
+	max-width: 50%;
+	padding-left: 12.5em;
+	padding-bottom: .65em;
+}
+
+.ngamuru img {
+	display: block;
+	width: 95%;
+	padding: .5em;
+	margin: auto;
+}
+
+.sydneywater h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #000;
+	text-align: left;
+	padding-top: 2em;
+	padding-left: 4.95em;
+	padding-bottom: .45em;
+
+}
+
+.sydneywater h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	color: #000;
+	text-align: left;
+	max-width: 30%;
+	padding-left: 14.85em;
+	padding-bottom: 5em;
+	font-weight: 600;
+}
+
+.sydneywater p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+	text-align: left;
+	max-width: 50%;
+	padding-left: 12.5em;
+	padding-bottom: .65em;
+}
+
+.sydneywater img {
+	display: block;
+	width: 95%;
+	padding: .5em;
+	margin: auto;
+}
+
 
 
 @media only screen and (max-width: 1020px) {
@@ -239,23 +285,84 @@ main {
 	}
 
 	p {
-		padding-bottom: 3em;
+		padding-bottom: .5em;
 		line-height: 1.2em;
 	}
+
+	footer {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+/*	padding-left: 1.25%;
+	padding-top: 2em;*/
+/*	line-height: 1.5em;
+*/	}
+
+	.about h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2em;
+	color: #000;
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+
+	.contact h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2em;
+	color: #000;
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+
+	.contact p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .70em;
+	color: #000;
+	text-align: left;
+	padding-left: 2.5em;
+}
 
 }
 
 @media only screen and (max-width: 600px) {
 	#three_column {
-		padding: .5em;
+/*		padding: .5em;
 		display: block;
 		flex-direction: row;
-		flex-wrap: wrap;
+		flex-wrap: wrap;*/
 	}
+
 	.left, .center, .right {
 		float: none;
 		width: auto;
 		display: block;
 	}
+
+	.about h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.45em;
+	color: #000;
+	text-align: left;
+	padding-left: .5em;
+	padding-right: .5em;
+	}
+
+	.contact h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.45em;
+	color: #000;
+	text-align: left;
+	padding-left: .5em;
+	padding-right: .5em;
+	}
+
+	.contact p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .70em;
+	color: #000;
+	text-align: left;
+	padding-left: 1em;
+}
 
 }
