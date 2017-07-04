@@ -323,6 +323,71 @@ main {
 	padding-left: 2.5em;
 }
 
+.sydneywater h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2em;
+	color: #000;
+	text-align: left;
+	padding-top: 2em;
+	padding-left: 3.3em;
+	padding-bottom: .45em;
+
+}
+
+.sydneywater h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	color: #000;
+	text-align: left;
+	max-width: 80%;
+	padding-left: 8em;
+	padding-bottom: 5em;
+	font-weight: 600;
+}
+
+.sydneywater p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+	text-align: left;
+	max-width: 80%;
+	padding-left: 6.75em;
+	padding-bottom: .65em;
+}
+.ngamuru h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2em;
+	color: #000;
+	text-align: left;
+	padding-top: 2em;
+	padding-left: 3.3em;
+	padding-bottom: .45em;
+
+}
+
+.ngamuru h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	color: #000;
+	text-align: left;
+	max-width: 80%;
+	padding-left: 8em;
+	padding-bottom: 5em;
+	font-weight: 600;
+}
+
+.ngamuru p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+	text-align: left;
+	max-width: 80%;
+	padding-left: 6.75em;
+	padding-bottom: .65em;
+}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -363,6 +428,73 @@ main {
 	color: #000;
 	text-align: left;
 	padding-left: 1em;
+
+}
+
+.ngamuru h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2em;
+	color: #000;
+	text-align: left;
+	padding-top: 2em;
+	padding-left: 1em;
+	padding-bottom: .45em;
+
+}
+
+.ngamuru h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	color: #000;
+	text-align: left;
+	max-width: 80%;
+	padding-left: 2.2em;
+	padding-bottom: 5em;
+	font-weight: 600;
+}
+
+.ngamuru p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+	text-align: left;
+	max-width: 80%;
+	padding-left: 2em;
+	padding-bottom: .65em;
+}
+
+.sydneywater h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2em;
+	color: #000;
+	text-align: left;
+	padding-top: 2em;
+	padding-left: 1em;
+	padding-bottom: .45em;
+
+}
+
+.sydneywater h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	color: #000;
+	text-align: left;
+	max-width: 80%;
+	padding-left: 2.2em;
+	padding-bottom: 5em;
+	font-weight: 600;
+}
+
+.sydneywater p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+	text-align: left;
+	max-width: 80%;
+	padding-left: 2em;
+	padding-bottom: .65em;
 }
 
 }
