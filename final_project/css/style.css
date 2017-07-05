@@ -225,6 +225,19 @@ height: 0;
 	font-weight: 600;
 }
 
+/*.ngamuru h4 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: .85em;
+	padding-left: 1.25%;
+	padding-top: 5em;
+	line-height: 1.5em;
+	display: inline;
+	float: right;
+	clear: both;
+	margin: 0;
+	text-align: right;
+}*/
+
 .ngamuru p {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1em;
