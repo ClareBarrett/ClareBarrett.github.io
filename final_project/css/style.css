@@ -148,6 +148,19 @@ clear: both;
 height: 0;
 }
 
+.about h1 {
+	padding-top: 1.5em;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #000;
+	text-align: left;
+	padding-left: 3em;
+	padding-right: 2em;
+	max-width: 75%;
+	font-weight: 300;
+	line-height: 1.2em;
+}
+
 .about h2 {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 2.5em;
@@ -158,6 +171,19 @@ height: 0;
 	max-width: 80%;
 }
 
+.contact h1 {
+	padding-top: 1.5em;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5em;
+	color: #000;
+	text-align: left;
+	padding-left: 3em;
+	padding-right: 2em;
+	max-width: 75%;
+	font-weight: 300;
+	line-height: 1.2em;
+}
+
 .contact h2 {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 2.5em;
@@ -166,6 +192,7 @@ height: 0;
 	padding-left: 3em;
 	padding-right: 2em;
 	max-width: 75%;
+	line-height: .85em;
 }
 
 .contact p {
