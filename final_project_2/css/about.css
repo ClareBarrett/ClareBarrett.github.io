@@ -2,20 +2,27 @@
 	float: left;
 	width: 20%;
 	padding-left: 3em;
+	padding-top: 3em;
 	}
 
 #column2 {
 	float: left;
-	width: 40%;
+	width: 41%;
 	display: inline-block;
-	padding-left: 1.5em;
+	padding-left: 1em;
+	padding-top: 2.25em;
 	}
 
 #column3 {
 	float: right;
 	width: 30%;
+	padding-top: 2.25em;
 	}
 
+#follow {
+	padding-top: 1.36em;
+	padding-left: 0;
+}
 
 .about h3 {
 	font-family: 'Karla', sans-serif;
