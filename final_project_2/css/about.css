@@ -1,44 +1,47 @@
-.about h1 {
+#column1 {
+	float: left;
+	width: 20%;
+	padding-left: 3em;
+	}
+
+#column2 {
+	float: left;
+	width: 40%;
+	display: inline-block;
+	padding-left: 1.5em;
+	}
+
+#column3 {
+	float: right;
+	width: 30%;
+	}
+
+
+.about h3 {
 	font-family: 'Karla', sans-serif;
-	font-size: 7em;
+	font-size: 1.5em;
 	color: #000;
 	text-align: left;
-	padding-top: 2em;
-	padding-left: 4.95em;
-	padding-bottom: .45em;
-
-}
-
-.about h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: .85em;
-	color: #000;
-	text-align: left;
-	max-width: 30%;
-	padding-left: 14.85em;
-	padding-bottom: 5em;
+	padding: 0;
 	font-weight: 700;
+	line-height: 1.75em;
 }
-
 
 .about p {
 	font-family: 'Karla', sans-serif;
-	font-size: 1em;
-	line-height: 1.5em;
+	font-size: 1.5em;
+	line-height: 1.35em;
 	color: #000;
 	text-align: left;
-	max-width: 50%;
-	padding-left: 12.5em;
-	padding-bottom: .65em;
+	padding: 0;
 }
 
 .about img {
 	display: block;
-	width: 95%;
-	padding: .5em;
-	margin: auto;
+	/*width: 60%;*/
+	padding: 0;
 }
-
+/*
 @media only screen and (max-width: 1020px) {
 main {
 	width: 100%;
@@ -94,7 +97,7 @@ main {
 	max-width: 80%;
 	padding-left: 8em;
 	padding-bottom: 5em;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .about p {
@@ -151,4 +154,4 @@ main {
 	padding-left: 2em;
 	padding-bottom: .65em;
 }
-}
+}*/
