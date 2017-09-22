@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-color: #ff5a74;
+color: #000;
 }
 
 nav {
@@ -45,7 +45,7 @@ nav a:link {
 }
 
 nav a:hover {
-color: #ff5a74;
+color: #000;
 }
 
 nav a:active {
@@ -203,7 +203,7 @@ height: 0;
 	padding-left: 8.85em;
 }
 
-.ngamuru h2 {
+/*.ngamuru h2 {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 2.5em;
 	color: #000;
@@ -225,7 +225,7 @@ height: 0;
 	font-weight: 600;
 }
 
-/*.ngamuru h4 {
+.ngamuru h4 {
 	font-family: 'Work Sans', sans-serif;
 	font-size: .85em;
 	padding-left: 1.25%;
@@ -236,7 +236,7 @@ height: 0;
 	clear: both;
 	margin: 0;
 	text-align: right;
-}*/
+}
 
 .ngamuru p {
 	font-family: 'Work Sans', sans-serif;
@@ -254,7 +254,7 @@ height: 0;
 	width: 95%;
 	padding: .5em;
 	margin: auto;
-}
+}*/
 
 .sydneywater h2 {
 	font-family: 'Work Sans', sans-serif;
@@ -474,7 +474,7 @@ main {
 	padding-left: 6.75em;
 	padding-bottom: .65em;
 }
-.ngamuru h2 {
+/*.ngamuru h2 {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 2em;
 	color: #000;
@@ -505,7 +505,7 @@ main {
 	max-width: 80%;
 	padding-left: 6.75em;
 	padding-bottom: .65em;
-}
+}*/
 
 }
 
@@ -550,7 +550,7 @@ main {
 
 }
 
-.ngamuru h2 {
+/*.ngamuru h2 {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 2em;
 	color: #000;
@@ -581,7 +581,7 @@ main {
 	max-width: 80%;
 	padding-left: 2em;
 	padding-bottom: .65em;
-}
+}*/
 
 .sydneywater h2 {
 	font-family: 'Work Sans', sans-serif;
