@@ -97,12 +97,16 @@ img {
 	width: 100%;
 }
 
-footer {
-	font-family: 'Karla', sans-serif;
-	font-size: .85em;
-	padding-left: 1.25%;
-	padding-top: 2em;
-	line-height: 1.5em;
+#previous {
+	float: left;
+	font-size: 1em;
+	padding-left: 2.5em;
+}
+
+#next {
+	float: right;
+	font-size: 1em;
+	padding-right: 2.5em;
 }
 
 #three_column {
@@ -150,61 +154,6 @@ clear: both;
 height: 0;
 }
 
-/*.about h1 {
-	padding-top: 1.5em;
-	font-family: 'Karla', sans-serif;
-	font-size: 2.5em;
-	color: #000;
-	text-align: left;
-	padding-left: 3em;
-	padding-right: 2em;
-	max-width: 75%;
-	font-weight: 400;
-	line-height: 1.2em;
-}
-
-.about h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 2.5em;
-	color: #000;
-	text-align: left;
-	padding-left: 3em;
-	padding-right: 2em;
-	max-width: 80%;
-}
-
-.contact h1 {
-	padding-top: 1.5em;
-	font-family: 'Karla', sans-serif;
-	font-size: 2.5em;
-	color: #000;
-	text-align: left;
-	padding-left: 3em;
-	padding-right: 2em;
-	max-width: 75%;
-	font-weight: 400;
-	line-height: 1.2em;
-}
-
-.contact h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 2.5em;
-	color: #000;
-	text-align: left;
-	padding-left: 3em;
-	padding-right: 2em;
-	max-width: 75%;
-	line-height: .85em;
-}
-
-.contact p {
-	font-family: 'Karla', sans-serif;
-	font-size: .85em;
-	color: #000;
-	text-align: left;
-	padding-left: 8.85em;
-}*/
-
 @media only screen and (max-width: 1020px) {
 main {
 	width: 100%;
@@ -236,41 +185,6 @@ main {
 		line-height: 1.2em;
 	}
 
-	footer {
-	font-family: 'Karla', sans-serif;
-	font-size: .85em;
-/*	padding-left: 1.25%;
-	padding-top: 2em;*/
-/*	line-height: 1.5em;
-*/	}
-
-	/*.about h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 2em;
-	color: #000;
-	text-align: left;
-	padding-left: 1em;
-	padding-right: 1em;
-	}
-
-	.contact h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 2em;
-	color: #000;
-	text-align: left;
-	padding-left: 1em;
-	padding-right: 1em;
-	}
-
-	.contact p {
-	font-family: 'Karla', sans-serif;
-	font-size: .70em;
-	color: #000;
-	text-align: left;
-	padding-left: 2.5em;
-}*/
-
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -284,32 +198,6 @@ main {
 	.left, .center, .right {
 		float: none;
 		width: auto;
-		display: block;
+		display: inline-block;
 	}
-
-	/*.about h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 1.45em;
-	color: #000;
-	text-align: left;
-	padding-left: .5em;
-	padding-right: .5em;
-	}
-
-	.contact h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 1.45em;
-	color: #000;
-	text-align: left;
-	padding-left: .5em;
-	padding-right: .5em;
-	}
-
-	.contact p {
-	font-family: 'Karla', sans-serif;
-	font-size: .70em;
-	color: #000;
-	text-align: left;
-	padding-left: 1em;
-}*/
 }

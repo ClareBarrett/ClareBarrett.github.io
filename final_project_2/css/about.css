@@ -49,117 +49,117 @@
 	width: 100%;
 	padding: 0;
 }
-/*
-@media only screen and (max-width: 1020px) {
-main {
-	width: 100%;
-}
-}
 
-@media only screen and (max-width: 750px) {
-	.left, .center, .right {
-		float:none;
-		width:auto;
-		padding: .5em;
+@media only screen and (max-width: 1030px) {
+
+#column1 {
+	float: left;
+	width: 20%;
+	padding-left: 3em;
+	padding-top: 3em;
 	}
 
-	nav a {
-		display: none;
+#column2 {
+	float: left;
+	width: 35%;
+	display: inline-block;
+	padding-left: 1em;
+	padding-top: 2.25em;
 	}
 
-	#mobile {
-		display: block;
-		padding: 0;
+#column3 {
+	float: right;
+	width: 30%;
+	padding-top: 2.25em;
 	}
 
-	nav:hover a {
-		display: block;
-	}
-
-	p {
-		padding-bottom: .5em;
-		line-height: 1.2em;
-	}
-
-	footer {
-	font-family: 'Karla', sans-serif;
-	font-size: .85em;
-	}
-
-.about h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 2em;
-	color: #000;
-	text-align: left;
-	padding-top: 2em;
-	padding-left: 3.3em;
-	padding-bottom: .45em;
-
+#follow {
+	padding-top: 1.36em;
+	padding-left: 0;
 }
 
 .about h3 {
 	font-family: 'Karla', sans-serif;
-	font-size: .85em;
+	font-size: 1em;
 	color: #000;
 	text-align: left;
-	max-width: 80%;
-	padding-left: 8em;
-	padding-bottom: 5em;
-	font-weight: 400;
+	padding: 0;
+	font-weight: 700;
+	line-height: 1.75em;
 }
 
 .about p {
 	font-family: 'Karla', sans-serif;
 	font-size: 1em;
-	line-height: 1.5em;
+	line-height: 1.35em;
 	color: #000;
 	text-align: left;
-	max-width: 80%;
-	padding-left: 6.75em;
-	padding-bottom: .65em;
+	padding: 0;
+	margin-top: .25em;
+}
+
+.about img {
+	display: block;
+	width: 100%;
+	padding: 0;
 }
 
 }
 
 @media only screen and (max-width: 700px) {
 
-.left, .center, .right {
+#column1 {
 	float: none;
-	width: auto;
-	display: block;
-}
+	width: 100%;
+	padding-top: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	}
 
+#column2 {
+	float: none;
+	width: 100%;
+	padding-top: 1.36em;
+	padding-left: 0.5em;
+	padding-bottom: 0;
+	}
 
-.about h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 2em;
-	color: #000;
-	text-align: left;
-	padding-top: 2em;
-	padding-left: 1em;
-	padding-bottom: .45em;
+#column3 {
+	float: none;
+	width: 100%;
+	padding-top: 1.36em;
+	padding-left: 0.5em;
+	}
+
+#follow {
+	padding-top: 1.36em;
+	padding-left: 0;
 
 }
 
 .about h3 {
 	font-family: 'Karla', sans-serif;
-	font-size: .85em;
+	font-size: 1em;
 	color: #000;
 	text-align: left;
-	max-width: 80%;
-	padding-left: 2.2em;
-	padding-bottom: 5em;
+	padding-bottom: 0;
 	font-weight: 700;
+	line-height: 1.36em;
 }
 
 .about p {
 	font-family: 'Karla', sans-serif;
 	font-size: 1em;
-	line-height: 1.5em;
+	line-height: 1.36em;
 	color: #000;
 	text-align: left;
-	max-width: 80%;
-	padding-left: 2em;
-	padding-bottom: .65em;
+	padding-top: 0;
+	margin-top: .25em;
 }
-}*/
+
+.about img {
+	width: 100%;
+	padding: 0;
+}
+
+}
