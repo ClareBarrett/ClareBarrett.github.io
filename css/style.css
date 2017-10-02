@@ -40,7 +40,7 @@ nav a {
 	padding: .5em;
 	}
 
-nav a:link {
+/*nav a:link {
 	color: #000;
 }
 
@@ -50,7 +50,7 @@ color: #000;
 
 nav a:active {
 color: #000;
-}
+}*/
 
 div {
 	padding: .5em;
@@ -91,6 +91,14 @@ body {
 	text-align: left;
 	line-height: .75em;
 	padding-bottom: 6em;
+}
+
+#footerleft {
+	float: none;
+	font-size: .80em;
+	padding-left: 1em;
+	padding-top: 1em;
+	color: #d3d3d3;
 }
 
 img {
